@@ -1,5 +1,5 @@
 # live_mnist
-## autor: Alexandru Papiu
+## Author: Alexandru Papiu
 
 MNIST Live - Run Digit Recognition powered by a Conv Net using live video feed from your webcam. The script uses a convolutional neural network in keras plus some adaptive treshholding and contours in open cv.
 
@@ -26,6 +26,9 @@ If you want to see the tresholded image run:
 The tresholded rectangles is what the CNN actually sees sees and was done so that the training data (the MNIST dataset) and the real world data are as similar as possible.
 
 There is a basic CNN in this repo that gets loaded automatically using keras in the script - however you can play around with training your own - take a look at the `train_model.py` script for the architecture. It will take around 700 seconds on a Macbook Pro to get over 99% accuracy.
+
+### Credits:
+[great resource + credits for contours and adaptive tresholds](http://hanzratech.in/2015/02/24/handwritten-digit-recognition-using-opencv-sklearn-and-python.html)
 
 
 ### Webcam output - Trehsolded versus original image:
