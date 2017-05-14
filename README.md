@@ -1,4 +1,5 @@
 # live_mnist
+## autor: Alexandru Papiu
 
 MNIST Live - Run Digit Recognition powered by a Conv Net using live video feed from your webcam. The script uses a convolutional neural network in keras plus some adaptive treshholding and contours in open cv.
 
