@@ -21,11 +21,13 @@ Finally, run the `live_mnist.py` script. It will take a few seconds for the webc
 
 If you want to see the tresholded image run:
 
-  python live_mnist.py tresh
+    python live_mnist.py tresh
 
 The tresholded rectangles is what the CNN actually sees sees and was done so that the training data (the MNIST dataset) and the real world data are as similar as possible.
 
-There is a basic CNN in this repo that gets loaded automatically using keras in the script - however you can play around with training your own - take a look at the `train_model.py` script for the architecture. It will take around 700 seconds on a Macbook Pro to get over 99% accuracy.
+### Models:
+
+There is a basic CNN in this repo that gets loaded automatically using keras in the script - `full_model.mnist`. However you can play around with training your own - take a look at the `train_model.py` script for the architecture. It will take around 700 seconds on a Macbook Pro to get over 99% accuracy.
 
 ### Credits:
 [great resource + credits for contours and adaptive tresholds](http://hanzratech.in/2015/02/24/handwritten-digit-recognition-using-opencv-sklearn-and-python.html)
