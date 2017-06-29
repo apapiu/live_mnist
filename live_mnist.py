@@ -6,8 +6,7 @@ then apply a CNN trained on MNIST for each rectangle found:
 great resource + credits for contours and adaptive tresholds:
 http://hanzratech.in/2015/02/24/handwritten-digit-recognition-using-opencv-sklearn-and-python.html
 
-author: Alexandru Papiu, December, 2016, alex.papiu@gmail.com, @apapiu
-
+author: Alexandru Papiu, December, 2016, alex.papiu@gmail.com, @apapiu,
 """
 
 import sys
